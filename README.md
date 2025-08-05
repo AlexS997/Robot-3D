@@ -1,12 +1,17 @@
-# React + Vite
+# 🌐 React Webpage with Tailwind CSS v4, Spline & AOS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a modern and responsive web page built using [React](https://reactjs.org/), styled with [Tailwind CSS v4](https://tailwindcss.com/), enhanced with scroll animations via [AOS (Animate On Scroll)](https://michalsnik.github.io/aos/), and featuring 3D elements powered by [Spline](https://spline.design/).
 
-Currently, two official plugins are available:
+## 🛠️ Technologies Used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ⚛️ **React** – JavaScript library for building user interfaces
+- 💨 **Tailwind CSS v4** – Utility-first CSS framework for fast UI development
+- ✨ **AOS (Animate On Scroll)** – Library to animate elements on scroll
+- 🧠 **JavaScript** – Core programming language used
+- 🌀 **Spline** – Tool for integrating interactive 3D elements into websites
 
-## Expanding the ESLint configuration
+## Spline React integration
+npm install @splinetool/react-spline
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## AOS for scroll animations
+npm install --save aos@next
